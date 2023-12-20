@@ -1,7 +1,9 @@
 
 const Home = () => {
   return (
-    <div>Hello World</div>
+    <div>
+      <h1>Threads</h1>
+    </div>
   )
 }
 
