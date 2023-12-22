@@ -7,7 +7,6 @@ const Home = async () => {
   // parameters will be dynamic
   const result = await fetchPosts(1, 30);
   const user = await currentUser();
-
   return (
     <>
       <h1 className="head-text text-left">Home</h1>

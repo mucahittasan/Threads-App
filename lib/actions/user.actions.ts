@@ -34,8 +34,8 @@ export async function updateUser({
             image,
             onboarded: true
         },
-        // upsert true'nun anlami; Eger id'si userId ile ayni olan bir belge yoksa o zaman userId'ye sahip belgeyi guncellemek yerine bu verilen bilgilere gore yeni bir kullanici yani belge olusturulur.
         {upsert: true}  
+        // upsert true'nun anlami; Eger id'si userId ile ayni olan bir belge yoksa o zaman userId'ye sahip belgeyi guncellemek yerine bu verilen bilgilere gore yeni bir kullanici yani belge olusturulur.
     );
 
     if(path === "/profile/edit") {
