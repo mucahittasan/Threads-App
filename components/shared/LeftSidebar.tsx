@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { SignOutButton, SignedIn, useAuth } from "@clerk/nextjs";
-import { sidebarLinks } from "@/constans/index"
+
+import { sidebarLinks } from "@/constans";
 
 const LeftSidebar = () => {
     const router = useRouter();

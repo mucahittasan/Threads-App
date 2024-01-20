@@ -39,6 +39,10 @@ function ThreadCard({
     comments,
     isComment,
 }: Props) {
+
+    console.log(`Author ${author.id}`)
+    console.log(`Current User ${currentUserId}`)
+
     return (
         <article
             className={`flex w-full flex-col rounded-xl ${isComment ? "px-0 xs:px-7" : "bg-dark-2 p-7"
